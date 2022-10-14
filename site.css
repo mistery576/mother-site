@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&family=Roboto+Condensed:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script&family=Pacifico&family=Roboto+Condensed:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+html {
+    height: 400vh;
+    width: 100%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/fotos-premium/papeis-de-parede-de-textura-perfeita-no-estilo-barroco-ilustracao-moderna_208588-1780.jpg?w=2000');
+    background-repeat: repeat;
+    background-size: 100vh;
+}
+
+.barra {
+	display: flex;
+	align-items: center;
+    height: 150px;
+    justify-content: center;
+	background-color: #039BE5;
+}
+
+.link1 {
+	position: absolute;
+    left: 100px;
+}
+
+.link2 {
+	position: absolute;
+	right: 130px;
+}
+
+.biografiali,
+.informacaoli {
+    margin-right: 200px;
+}
+
+
+li {
+	display: inline;
+}
+
+a {
+	font-family: 'Bungee Spice', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 37px;
+	color: black;
+}
+
+.titulo {
+    position: relative;
+	text-align: center;
+	width: 160px;
+}
+
+.nome_do_site {
+	font-family: 'Peralta', cursive;
+	font-size: 33px;
+}
+
+.biografia {
+    border: 5px double;
+    background-color: #E0FFFF;
+    border-color: #778899;
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 50%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.biografia_titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.biografia_texto {
+    font-family: 'Secular One', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.foto_mae{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    border-radius: 30px;
+    width: 50vh;
+}
+
+.titulos {
+    display: inline;
+
+}
+
+.projetos_titulo { 
+    margin-top: 15%;
+    margin-left: 18.4%;
+    width: 25%;
+    text-align: center;
+    border: dotted;
+    border-color: #FFA07A;
+}
+
+.projeto_titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.slideshow-container{
+    position: relative;
+    width: 100% auto;
+    max-width: 400px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.mySlides {
+    position: relative;
+    width: 100% auto;
+    max-width: 400px;
+}
+
+.mySlides img{
+    width: 100%;
+    height: auto;
+}
+
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    text-align: center;
+    width: 30px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 50% 50%;
+    border: 5px solid gold;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: -4.5%;
+    text-align: center;
+    width: 30px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 50% 50%;
+    border: 5px solid gold;
+    border-width: 5px;
+    cursor: pointer;
+    display: block;
+}
+.prev:hover, .next:hover {
+    background-color: white;
+    transition: 0.6s;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  transition-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
